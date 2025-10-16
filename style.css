@@ -121,6 +121,7 @@ height: 20vh; /* or min-height: 100px */
 }@media  (max-width:522px){
   .m2{
     font-size: 12px;
+    margin-bottom: 35px;
   }
   .se3{
     flex-direction: column;
@@ -285,9 +286,5 @@ body {
     .f{
         width:90%;
         height: 78%;
-    }
-}@media(max-width:336px) {
-    .m2{
-        padding-bottom: 50px;
     }
 }
