@@ -701,5 +701,7 @@ body{
         }#last1{
              top: 147px;
             position: relative;
+            padding: 28px;
+        width: 482px;
         }
     }
