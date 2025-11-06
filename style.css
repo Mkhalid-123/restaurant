@@ -206,7 +206,7 @@ body {
     flex-wrap: wrap;
     width: 40%;
     padding: 20px;
-    background-color: aliceblue;
+    background-color: #FFF5F5;
 }.f{
     height: 90%;
     width: 90%;
@@ -314,7 +314,7 @@ body {
 }#section3{
     width: 100vw;
     font-size: 90%;
-    height: 900px;
+    height: 1000px;
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -388,7 +388,7 @@ ol{
     width: 100%;
 }#section3{
     background-color: #111111;
-    height: 3300px;
+    height: 3464px;
 }#icons{
     position: relative;
     bottom: 1200px;
@@ -433,12 +433,13 @@ ol{
 }
 #a1{
     background-color: white;
-    width: 30%;
+    width: 140px;
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 10px;
+    justify-content: center;
 }.c{
     background-color: #E6E6E6;
     height: 10px;
@@ -590,4 +591,115 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}#footer{
+    position: relative;
+    top: 250px;
+    width: 100vw;
+    height: 900px;
+    background-color: #151515;
+}#f1{
+    background-color: #151515;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.pm {
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 63%;
+    background-color: #191919;
+    margin: 10px;
+    border-radius: 20px;}
+    @media(max-width:700px) {
+        #f1{
+            flex-direction: column;
+        }.pm{
+            width: 90%;
+            height: 70%;
+        }
+
+    }@media(max-width:1000px){
+        #f1{
+    bottom: 145px;
+    position: relative;
+}
+    }
+    .cf{
+        height: 100px;
+        width: 100px;
+        background-image: url(https://themewant.com/products/html/dinenos/landing/assets/images/footer-icon/1.png);
+        background-size: cover;
+    }.fp{
+        text-align: center;
+        padding: 24px;
+    }.fp h1{
+        color: white;
+        font-size: 150%;
+    }.cf2{
+        background-image: url(https://themewant.com/products/html/dinenos/landing/assets/images/footer-icon/2.png);
+    }.cf3{
+        background-image: url(https://themewant.com/products/html/dinenos/landing/assets/images/footer-icon/3.png);
+    }.fp p{
+        color:#6F7378;
+        margin-top: 10px;
+    }@media(max-width:950px){
+        #f1{
+            flex-direction: column;
+            padding: 20px;
+        }.pm{
+            width: 90%;
+            position: relative;
+            top: 260px;
+        }
+    }@media(max-width:400px){
+        #f1{
+            position: relative;
+            bottom:275px;
+        }
+    }hr{
+     border-top: 0.1px solid;
+     border-bottom: none;
+    }@media(max-width:950px){
+        hr{
+            position: relative;
+            top: 300px;
+        }
+    }#last{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #141414;
+    }#last1{
+        font-size: 28px;
+        width: 37%;
+        text-align: center;
+    }#last1 p{
+        color: #6F737B;
+    margin: 10px;
+    }#last button{
+        height: 55px;
+        width: 140px;
+        font-size: 60%;
+        background-color: #DD5903;
+        color: white;
+        font-weight: 700;
+        margin-top: 12px;
+        padding: 3px;
+    }#last1 h1{
+        color: white;
+        font-size: 50px;
+    }@media(max-width:950px){
+        #last{
+            height:900px;
+        }#last1{
+             top: 147px;
+            position: relative;
+        }
+    }
